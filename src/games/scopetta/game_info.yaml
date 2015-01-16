@@ -1,0 +1,29 @@
+---
+# informazioni sul gioco dello scopetta in due
+:name: Scopetta
+:desc: Gioco dello scopa a 2 giocatori
+# key to recognize this game. Use an unique key within the game list
+:key: :scopetta_game
+# class gfx to be created
+:class_name: ScopettaGfx
+# game options used on network game
+#:opt:
+#  :target_points: 11
+#  :vale_napola: true
+:opt:
+  :target_points: 
+    :type: :textbox
+    :name: Punti vittoria
+    :val: 11
+  :vale_napola: 
+    :type: :checkbox
+    :name: Napoletana 
+    :val: true
+# this game is enabled? If not it isn't displayed on menu 
+:enabled: true
+# file required
+:file_req: scopetta_gfx.rb
+# number of players
+:num_of_players: 2
+
+

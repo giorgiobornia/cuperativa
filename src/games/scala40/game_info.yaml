@@ -1,0 +1,19 @@
+---
+# informazioni sul gioco dello spazzino in due
+:name: Scala40
+:desc: Gioco della scala 40 a 4 giocatori
+# key to recognize this game. Use an unique key within the game list
+:key: :scala40_game
+# class gfx to be created
+:class_name: Scala40Gfx
+# game options
+:opt:
+  :target_points: 101
+# this game is enabled? If not it isn't displayed on menu 
+:enabled: false
+# file required
+:file_req: scala40_gfx.rb
+# number of players
+:num_of_players: 4
+
+

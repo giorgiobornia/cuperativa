@@ -1,0 +1,16 @@
+---
+# informazioni sul gioco del tressette in due
+:name: Tressette
+:desc: Gioco del tressette a 2 giocatori
+:key: :tressette_game
+:class_name: TressetteGfx
+:opt:
+  :target_points:
+    :type: :textbox
+    :name: Punti vittoria
+    :val: 21
+:enabled: true
+:file_req: tressette_gfx.rb
+:num_of_players: 2
+
+

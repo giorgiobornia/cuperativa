@@ -1,0 +1,20 @@
+---
+# informazioni sul gioco degli scacchi
+:name: Scacchi
+:desc: Gioco degli scacchi
+:key: :scacchi_game
+:class_name: ChessGfx
+:opt:
+  :match_time:
+    :type: :textbox
+    :name: Tempo partita
+    :val: 15
+  :color_pieces:
+    :type: :textbox
+    :name: Colore
+    :val: :white
+:enabled: false
+:file_req: chessgfx.rb
+:num_of_players: 2
+
+

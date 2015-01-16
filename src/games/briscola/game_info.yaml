@@ -1,0 +1,20 @@
+---
+# informazioni sul gioco della briscola in due
+:name: Briscola
+:desc: Gioco della briscola a 2 giocatori
+:key: :briscola_game
+:class_name: BriscolaGfx
+:opt:
+  :target_points_segno:
+    :type: :textbox
+    :name: Punti vittoria segno
+    :val: 61
+  :num_segni_match:
+    :type: :textbox
+    :name: Segni in una partita
+    :val: 2
+:enabled: true
+:file_req: briscola_gfx.rb
+:num_of_players: 2
+
+

@@ -1,0 +1,9 @@
+--- 
+:version_str: 0.8.2
+:new_dir: 
+- src
+- res
+:new_file: 
+- :dst: /Readme.txt
+  :src: /Readme.txt
+:version_title: patch to version 0.8.2

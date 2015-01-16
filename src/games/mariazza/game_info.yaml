@@ -1,0 +1,20 @@
+---
+# informazioni sul gioco della mariazza in due
+:name: Mariazza
+:desc: Gioco della mariazza a 2 giocatori
+:key: :mariazza_game
+:class_name: MariazzaGfx
+:opt:
+  :target_points_segno:
+    :type: :textbox
+    :name: Punti vittoria segno
+    :val: 41
+  :num_segni_match:
+    :type: :textbox
+    :name: Segni in una partita
+    :val: 4
+:enabled: true
+:file_req: mariazza_gfx.rb
+:num_of_players: 2
+
+

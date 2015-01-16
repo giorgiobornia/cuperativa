@@ -1,0 +1,16 @@
+---
+# informazioni sul gioco della briscola in due
+:name: Briscola5
+:desc: Gioco della briscola a 5 giocatori
+:key: :briscola5_game
+:class_name: Briscola5Gfx
+:opt:
+  :num_mani_match:
+    :type: :textbox
+    :name: Smazzate in una partita
+    :val: 2
+:enabled: false
+:file_req: briscola5_gfx.rb
+:num_of_players: 5
+
+

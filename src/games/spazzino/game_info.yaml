@@ -1,0 +1,22 @@
+---
+# informazioni sul gioco dello spazzino in due
+:name: Spazzino
+:desc: Gioco dello spazzino a 2 giocatori
+# key to recognize this game. Use an unique key within the game list
+:key: :spazzino_game
+# class gfx to be created
+:class_name: SpazzinoGfx
+# game options
+:opt:
+  :target_points: 
+    :type: :textbox
+    :name: Punti vittoria
+    :val: 21
+# this game is enabled? If not it isn't displayed on menu 
+:enabled: true
+# file required
+:file_req: spazzino_gfx.rb
+# number of players
+:num_of_players: 2
+
+
