@@ -51,7 +51,7 @@ class CoreGameBriscolone < CoreGameBriscola
         if @mazzo_gioco.size > 0
           carte_player << @mazzo_gioco.pop
         else
-          @log.error "Pesca la briscola che non c'è più"
+          @log.error "Pesca la briscola che non c'e' piu'"
         end 
         #p carte_player
         player.algorithm.onalg_pesca_carta(carte_player)

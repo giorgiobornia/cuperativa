@@ -272,7 +272,7 @@ class CoreGameBriscola < CoreGameBase
           @log.info "pesca_carta: distribuisce anche la briscola"
           briscola_in_tavola = false
         else
-          @log.error "Pesca la briscola che non c'è più"
+          @log.error "Pesca la briscola che non c'e' piu'"
         end 
         #p carte_player
         player.algorithm.onalg_pesca_carta(carte_player)
